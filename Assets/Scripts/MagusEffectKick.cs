@@ -22,7 +22,7 @@ public class MagusEffectKick : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.wasPressedThisFrame && !isKick) 
         {
-            rb.AddForce(Vector3.forward * kickForce, ForceMode.Impulse);
+            rb.AddForce(transform.forward * kickForce, ForceMode.Impulse);
 
             rb.AddTorque(Vector3.up * spinAmount);
 
