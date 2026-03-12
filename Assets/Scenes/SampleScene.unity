@@ -426,6 +426,7 @@ GameObject:
   - component: {fileID: 44466105}
   - component: {fileID: 44466104}
   - component: {fileID: 44466103}
+  - component: {fileID: 44466108}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -553,6 +554,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &44466108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44466102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4445975f2e70a1488da3af5713f66b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MagusEffectKick
+  kickForce: 10
+  spinAmount: 20
+  magnusStrength: 0.5
 --- !u!1 &148102141
 GameObject:
   m_ObjectHideFlags: 0
